@@ -1,7 +1,7 @@
 $("#run").click(function () {
     var n = $("#input-number").val();
     if(n % 3 === 0 && n % 5 === 0) {
-        $("#output").text("FizzBuzz");
+        $("#output").text("FizzBuzz XXX");
     }
     else if(n % 3 === 0) {
         $("#output").text("Fizz");
